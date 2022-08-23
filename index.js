@@ -1,1 +1,6 @@
-// Your code goes here
+// Your code goedocument.addEventListener("DOMContentLoaded", function () {
+  
+    document.addEventListener( 'DOMContentLoaded', () => {
+        let p = document.querySelector( 'p' );
+        p.textContent = "This is really cool!";
+  } );
